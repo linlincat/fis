@@ -1,0 +1,122 @@
+{
+    "res": {
+        "lib/base.css": {
+            "uri": "/lib/base.css",
+            "type": "css",
+            "deps": [
+                "lib/main.css"
+            ]
+        },
+        "lib/main.css": {
+            "uri": "/lib/main.css",
+            "type": "css",
+            "deps": [
+                "lib/normalize.css"
+            ]
+        },
+        "lib/mod.js": {
+            "uri": "/lib/mod.js",
+            "type": "js"
+        },
+        "lib/normalize.css": {
+            "uri": "/lib/normalize.css",
+            "type": "css"
+        },
+        "modules/backbone/backbone.js": {
+            "uri": "/modules/backbone/backbone.js",
+            "type": "js",
+            "deps": [
+                "underscore"
+            ]
+        },
+        "modules/collections/todos.js": {
+            "uri": "/modules/collections/todos.js",
+            "type": "js",
+            "deps": [
+                "backbone",
+                "vendor/backbone.localStorage",
+                "jquery",
+                "underscore",
+                "models/todo"
+            ]
+        },
+        "modules/common/common.js": {
+            "uri": "/modules/common/common.js",
+            "type": "js"
+        },
+        "modules/jquery/jquery.js": {
+            "uri": "/modules/jquery/jquery.js",
+            "type": "js"
+        },
+        "modules/main.js": {
+            "uri": "/modules/main.js",
+            "type": "js",
+            "deps": [
+                "backbone",
+                "jquery",
+                "views/app",
+                "routers/router"
+            ]
+        },
+        "modules/models/todo.js": {
+            "uri": "/modules/models/todo.js",
+            "type": "js",
+            "deps": [
+                "backbone"
+            ]
+        },
+        "modules/routers/router.js": {
+            "uri": "/modules/routers/router.js",
+            "type": "js",
+            "deps": [
+                "backbone",
+                "common",
+                "collections/todos"
+            ]
+        },
+        "modules/underscore/underscore.js": {
+            "uri": "/modules/underscore/underscore.js",
+            "type": "js"
+        },
+        "modules/vendor/backbone.localStorage.js": {
+            "uri": "/modules/vendor/backbone.localStorage.js",
+            "type": "js",
+            "deps": [
+                "underscore",
+                "jquery",
+                "backbone"
+            ]
+        },
+        "modules/views/app.js": {
+            "uri": "/modules/views/app.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "underscore",
+                "backbone",
+                "common",
+                "views/todos",
+                "collections/todos"
+            ]
+        },
+        "modules/views/todos.js": {
+            "uri": "/modules/views/todos.js",
+            "type": "js",
+            "deps": [
+                "backbone",
+                "common",
+                "jquery",
+                "underscore"
+            ]
+        },
+        "test.css": {
+            "uri": "/test.css",
+            "type": "css"
+        },
+        "test.less": {
+            "uri": "/test.css",
+            "type": "css"
+        }
+    },
+    "pkg": {}
+}

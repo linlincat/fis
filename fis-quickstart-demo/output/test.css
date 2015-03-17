@@ -1,0 +1,8 @@
+body .container {
+  width: 980px;
+  height: 300px;
+  background-color: red;
+  font-size: 12px;
+  border-color: red;
+  border-top: 20px;
+}
